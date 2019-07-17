@@ -61,7 +61,9 @@ section {
 article {
     width:95%;
     background-color: #757575;
-    padding:2%;
+    padding-top:15px;
+    padding-left: 2%;
+    padding-right: 2%;
     color:#fff;
     margin-top:25px;
     margin-right: auto;
@@ -76,6 +78,7 @@ article {
     padding: 15px;
     color:#000;
     margin-bottom: 15px;
+    margin-top:20px;
 }
 .content {
     background-color: #fff;
@@ -89,7 +92,7 @@ aside {
     background-color: #fff;
     text-align: center;
     padding-top: 30px;
-    height: 251px;
+    height: 236px;
 }
 footer {
     width:95%;
