@@ -1,0 +1,100 @@
+body {
+    /* The Body Requires Some Color */
+    background-color: #757575;
+    font-family: 'Roboto', sans-serif;
+}
+    /* Let's Use This Fancy ClearFix I found */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.wrapper {
+    /* Let's Contain all these other things into one tidy box */
+    margin-right: auto;
+    margin-left:  auto; 
+    max-width: 960px; 
+    padding-right: 10px;
+    padding-left:  10px; 
+    /* A Temporary Border to see the wrapper in action */
+    /* border:1px solid black; */
+    /* I'm not sure what Border Box Does, so I'm trying them out */
+    box-sizing: border-box;
+  }
+header {
+    /*Not sure I need this */
+    display: block;
+}
+.above_nav_header {
+    /* Some padding, color and text centering */
+    background-color: #fff;
+    padding: 25px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+nav {
+    /* Identiacal to above_nav_header except bottom margin */
+    background-color: #fff;
+    padding: 25px;
+    text-align:center;
+    margin-bottom: 25px;
+}
+section {
+    /* Container for the main content */
+    width:48%;
+    margin-right: 10px;
+    float: left;
+    display: block;
+    background-color: #fff;
+    padding:2px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+}
+article {
+    width:95%;
+    background-color: #757575;
+    padding:2%;
+    color:#fff;
+    margin-top:25px;
+    margin-right: auto;
+    margin-left:  auto; 
+    margin-bottom:25px;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+.headline {
+    background-color: #fff;
+    padding: 15px;
+    color:#000;
+    margin-bottom: 15px;
+}
+.content {
+    background-color: #fff;
+    padding: 15px;
+    color:#000;
+    margin-bottom: 15px;
+}
+aside {
+    float:left;
+    width:50%;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    height: 251px;
+}
+footer {
+    width:95%;
+    text-align: center;
+    background-color: #fff;
+    padding:20px;
+    margin-bottom: 15px;
+}
